@@ -84,3 +84,25 @@ button:hover{
     display: flex;
     justify-content: center;
 }
+@media (max-width: 600px){
+    .choices{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    button{
+        margin-left: 0;
+    }
+    .score-board{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .msg1{
+        width: 100%;
+        text-align: center;
+        height: 8rem;
+    }
+    .msg-container{
+        height: 100%;
+    }
+}
