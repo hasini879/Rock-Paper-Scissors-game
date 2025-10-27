@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); 
+    align-items: center;
+} 
+
+h1{
+    text-align: center;
+    background-color: black;
+    height: 5rem;
+    color: white;
+    line-height: 5rem;
+}
+
+button{
+    height: 200px;
+    width: 200px;
+    margin-left: 45px;
+    border-radius: 50%;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 0 #000000;
+}
+
+#rock{
+    background-image: url('./images/rock.png');
+    background-size: cover;
+    background-position: center; 
+}
+#paper{
+    background-image: url('./images/paper.png');
+    background-size: cover;
+    background-position: center; 
+}
+#scissors{
+    background-image: url('./images/scissors.png');
+    background-size: cover;
+    background-position: center; 
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 8rem;
+}
+.score{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    
+}
+.msg-container{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    height: 4rem;
+    width: fit-content; 
+    padding: 0 1.5rem;   
+    border-radius: 0.5rem; 
+}
+.msg1{
+    display: flex;
+    justify-content: center;
+}
